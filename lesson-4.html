@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap for Web Design</title>
+	<meta name="description" content="A Tuts+ course">
+	<meta name="author" content="Adi Purdila">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Bootstrap for Web Design</h1>
+				<h3>Lesson 4: Form Controls</h3>
+			</div> <!-- end container -->
+		</div> <!-- end jumbotron -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<a href="lesson-3.html">&larr; Previous Lesson</a>
+				</div> <!-- end col-sm-6 -->
+				<div class="col-sm-6 text-right">
+					<a href="lesson-5.html">Next Lesson &rarr;</a>
+				</div> <!-- end col-sm-6 -->
+			</div> <!-- end row -->
+
+			<hr>
+		</div> <!-- end container -->
+	</header>
+
+	<div>
+		<div class="container">
+			<form action="" role="form">
+				<div class="form-group has-warning has-feedback">
+					<label for="form-elem-1" class="control-label">This is a label</label>
+					<input type="text" id="form-elem-1" class="form-control">
+					<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+				</div>
+				<div class="form-group has-error has-feedback">
+					<label for="form-elem-2" class="control-label">This is a label</label>
+					<input type="text" id="form-elem-2" class="form-control">
+					<p class="help-block">This is an example help text.</p>
+					<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+				</div>
+				<div class="form-group has-success has-feedback">
+					<label for="form-elem-5" class="control-label">This is a label</label>
+					<input type="text" id="form-elem-5" class="form-control">
+					<p class="help-block">This is an example help text.</p>
+					<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+				</div>
+			</form>
+
+			<hr>
+
+			<form action="" role="form" class="form-inline">
+				<div class="form-group">
+					<label for="form-elem-3" class="sr-only">This is a label</label>
+					<input type="text" id="form-elem-3" class="form-control input-lg" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label for="form-elem-4" class="sr-only">This is a label</label>
+					<input type="password" id="form-elem-4" class="form-control input-sm" placeholder="Password">
+				</div>
+
+				<div class="checkbox">
+					<label for=""><input type="checkbox"> Remember me</label>
+				</div>
+
+				<button type="submit" class="btn btn-default">Sign in</button>
+			</form>
+
+			<hr>
+
+			<form action="" role="form">
+				<div class="row">
+					<div class="col-lg-2">
+						<input type="text" class="form-control" placeholder=".col-lg-2">
+					</div>
+					<div class="col-lg-3">
+						<input type="text" class="form-control" placeholder=".col-lg-3">
+					</div>
+					<div class="col-lg-7">
+						<input type="text" class="form-control" placeholder=".col-lg-7">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div> <!-- end demo-area -->
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small>a <a href="https://tutsplus.com/">Tuts+</a> course by Adi Purdila</small>
+			</p>
+		</div> <!-- end container -->
+	</footer>
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+
+</body>
+</html>

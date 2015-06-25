@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap for Web Design</title>
+	<meta name="description" content="A Tuts+ course">
+	<meta name="author" content="Adi Purdila">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Bootstrap for Web Design</h1>
+				<h3>Lesson 5: Dropdowns</h3>
+			</div> <!-- end container -->
+		</div> <!-- end jumbotron -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<a href="lesson-4.html">&larr; Previous Lesson</a>
+				</div> <!-- end col-sm-6 -->
+				<div class="col-sm-6 text-right">
+					<a href="lesson-6.html">Next Lesson &rarr;</a>
+				</div> <!-- end col-sm-6 -->
+			</div> <!-- end row -->
+
+			<hr>
+		</div> <!-- end container -->
+	</header>
+
+	<div class="demo-area">
+		<div class="container">
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" id="dd-menu" data-toggle="dropdown">
+					Dropdown <span class="caret"></span>
+				</button>
+
+				<ul class="dropdown-menu" role="menu">
+					<li role="presentation" class="dropdown-header">A header</li>
+					<li role="presentation" class="disabled"><a href="#" role="menuitem" tabindex="-1">List item</a></li>
+					<li role="presentation"><a href="#" role="menuitem" tabindex="-1">List item</a></li>
+					<li role="presentation"><a href="#" role="menuitem" tabindex="-1">List item</a></li>
+					<li role="presentation" class="divider"></li>
+					<li role="presentation" class="dropdown-header">Another header</li>
+					<li role="presentation"><a href="#" role="menuitem" tabindex="-1">List item</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> <!-- end demo-area -->
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small>a <a href="https://tutsplus.com/">Tuts+</a> course by Adi Purdila</small>
+			</p>
+		</div> <!-- end container -->
+	</footer>
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+
+</body>
+</html>

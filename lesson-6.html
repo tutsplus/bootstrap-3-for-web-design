@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap for Web Design</title>
+	<meta name="description" content="A Tuts+ course">
+	<meta name="author" content="Adi Purdila">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Bootstrap for Web Design</h1>
+				<h3>Lesson 6: Tabs</h3>
+			</div> <!-- end container -->
+		</div> <!-- end jumbotron -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<a href="lesson-5.html">&larr; Previous Lesson</a>
+				</div> <!-- end col-sm-6 -->
+				<div class="col-sm-6 text-right">
+					<a href="lesson-7.html">Next Lesson &rarr;</a>
+				</div> <!-- end col-sm-6 -->
+			</div> <!-- end row -->
+
+			<hr>
+		</div> <!-- end container -->
+	</header>
+
+	<div class="demo-area">
+		<div class="container">
+			<ul class="nav nav-pills nav-justified">
+				<li class="active"><a href="#section-1" data-toggle="tab">Section 1</a></li>
+				<li><a href="#section-2" data-toggle="tab">Section 2</a></li>
+				<li><a href="#section-3" data-toggle="tab">Section 3</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div class="tab-pane fade in active" id="section-1">
+					<p>This is section 1 content</p>
+				</div>
+				<div class="tab-pane fade" id="section-2">
+					<p>This is section 2 content</p>
+				</div>
+				<div class="tab-pane fade" id="section-3">
+					<p>This is section 3 content</p>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end demo-area -->
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small>a <a href="https://tutsplus.com/">Tuts+</a> course by Adi Purdila</small>
+			</p>
+		</div> <!-- end container -->
+	</footer>
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+
+</body>
+</html>

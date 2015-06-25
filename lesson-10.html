@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap for Web Design</title>
+	<meta name="description" content="A Tuts+ course">
+	<meta name="author" content="Adi Purdila">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Bootstrap for Web Design</h1>
+				<h3>Lesson 10: Modal Windows</h3>
+			</div> <!-- end container -->
+		</div> <!-- end jumbotron -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<a href="lesson-9.html">&larr; Previous Lesson</a>
+				</div> <!-- end col-sm-6 -->
+				<div class="col-sm-6 text-right">
+					<a href="lesson-11.html">Next Lesson &rarr;</a>
+				</div> <!-- end col-sm-6 -->
+			</div> <!-- end row -->
+
+			<hr>
+		</div> <!-- end container -->
+	</header>
+
+	<div class="demo-area">
+		<div class="container">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Demo modal</button>
+
+			<div class="modal fade" id="modal-1" tabindex="-1" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Modal title</h4>
+						</div>
+
+						<div class="modal-body">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo deserunt corporis esse qui. Eaque atque aliquam quisquam excepturi cum suscipit voluptatibus recusandae natus at sapiente! Ad beatae atque modi natus!
+						</div>
+
+						<div class="modal-footer">
+							<a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+							<a href="" class="btn btn-primary">Save</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end demo-area -->
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small>a <a href="https://tutsplus.com/">Tuts+</a> course by Adi Purdila</small>
+			</p>
+		</div> <!-- end container -->
+	</footer>
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+
+</body>
+</html>

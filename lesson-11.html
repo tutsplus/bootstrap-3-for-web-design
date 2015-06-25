@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap for Web Design</title>
+	<meta name="description" content="A Tuts+ course">
+	<meta name="author" content="Adi Purdila">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> -->
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Bootstrap for Web Design</h1>
+				<h3>Lesson 11: Collapse and Carousels</h3>
+			</div> <!-- end container -->
+		</div> <!-- end jumbotron -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<a href="lesson-10.html">&larr; Previous Lesson</a>
+				</div> <!-- end col-sm-6 -->
+				<div class="col-sm-6 text-right">
+					<a href="index.html">Exercise &rarr;</a>
+				</div> <!-- end col-sm-6 -->
+			</div> <!-- end row -->
+
+			<hr>
+		</div> <!-- end container -->
+	</header>
+
+	<div class="demo-area">
+		<div class="container">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#content-1" data-toggle="collapse" data-parent="#accordion">Collapse 1</a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse in" id="content-1">
+						<div class="panel-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, facilis, tempore, modi fugit minus libero recusandae laborum sed enim expedita reiciendis magni quisquam nihil vero molestias. Quasi ipsa culpa autem.</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#content-2" data-toggle="collapse" data-parent="#accordion">Collapse 2</a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse" id="content-2">
+						<div class="panel-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, facilis, tempore, modi fugit minus libero recusandae laborum sed enim expedita reiciendis magni quisquam nihil vero molestias. Quasi ipsa culpa autem.</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#content-3" data-toggle="collapse" data-parent="#accordion">Collapse 3</a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse" id="content-3">
+						<div class="panel-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, facilis, tempore, modi fugit minus libero recusandae laborum sed enim expedita reiciendis magni quisquam nihil vero molestias. Quasi ipsa culpa autem.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="carousel slide" data-ride="carousel" id="carousel-example">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example" data-slide-to="1"></li>
+					<li data-target="#carousel-example" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/slider-1.jpg" alt="Slide">
+
+						<div class="carousel-caption">
+							<h3>This is a caption</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, necessitatibus.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/slider-2.jpg" alt="Slide">
+
+						<div class="carousel-caption">
+							<h3>This is a caption</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, necessitatibus.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/slider-3.jpg" alt="Slide">
+
+						<div class="carousel-caption">
+							<h3>This is a caption</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, necessitatibus.</p>
+						</div>
+					</div>
+				</div>
+
+				<a href="#carousel-example" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#carousel-example" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+	</div> <!-- end demo-area -->
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small>a <a href="https://tutsplus.com/">Tuts+</a> course by Adi Purdila</small>
+			</p>
+		</div> <!-- end container -->
+	</footer>
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+
+</body>
+</html>
